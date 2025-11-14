@@ -45,10 +45,10 @@ Frontend deployed on **Vercel**, backend deployed on **Render**.
 ## 📸 Screenshots  
 
 ### **Login Page**
-![Login Screenshot](image.png)
+![Login Screenshot](./screenshots/login.png)
 
 ### **Chat Interface**
-![Chat Screenshot](image-1.png)
+![Chat Screenshot](./screenshots/chatui.png)
 
 
 ## 📂 Project Structure
@@ -56,13 +56,12 @@ Frontend deployed on **Vercel**, backend deployed on **Render**.
 ```
 chat-app/
 │
-├── client/ # Frontend (React, Vite)
-├── server/ # Backend (Node, Express, MongoDB)
-│
-├── image.png # Login screenshot
-├── image-1.png # Chat UI screenshot
-├── README.md # Project documentation
-└── .env.example # Example environment file
+├── client/           # Frontend (React, Vite)
+├── server/           # Backend (Node, Express, MongoDB)
+├── .gitignore        # Ignore unnecessary files
+├── screenshots/      # Folder for images (login.png, chatui.png)
+├── README.md         # Documentation file
+└── .env.example      # Example environment variables
 ```
 
 

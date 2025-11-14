@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { useContext } from "react";
+
 import { Navigate, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
@@ -7,7 +7,7 @@ import ProfilePage from "./pages/ProfilePage";
 import { Toaster } from "react-hot-toast";
 import { AuthContext } from "../context/AuthContext";
 
-import bg from "./assets/bgImage.svg"; 
+import bg from "./assets/bgImage.svg";
 
 const App = () => {
   const { authUser } = useContext(AuthContext);
@@ -16,7 +16,7 @@ const App = () => {
     <div
       style={{
         backgroundImage: `url(${bg})`,
-        backgroundSize: "contain",
+        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         minHeight: "100vh",
